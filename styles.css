@@ -1,0 +1,25 @@
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.cart-item span {
+    flex-grow: 1; /* Para ocupar el espacio disponible */
+}
+
+.cart-item span:nth-child(2) {
+    text-align: right; /* Alinea el precio a la derecha */
+    margin-right: 10px; /* Ajusta el espacio entre el precio y el botón */
+}
+
+.cart-item button {
+    background: #ff0000;
+    color: #fff;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
